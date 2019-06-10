@@ -1,0 +1,38 @@
+h1 {
+ font-family:$Playfair;
+ font-size:$xx-large;
+ font-weigth:$bold-italic;
+ font-style: italic;
+ color:$white;
+ padding-top:200px;
+}
+
+h2 {
+ font-family:$Playfair;
+ font-size:$x-large;
+ font-weigth:$bold-italic;
+ font-style: italic;
+ color:$eerie-black;
+ margin-bottom:15px;
+ margin-top:25px;
+}
+
+h3 {
+ font-family:$Playfair;
+ font-size:$medium;
+ font-weigth:$regular;
+ color:$eerie-black;
+ margin:25px 0px 25px 0px;
+ color:$nikel;
+}
+
+
+
+p {
+	font-family:$Roboto;
+ 	font-size:$medium;
+ 	font-weigth:$regular;
+ 	color:$nikel;
+ 	line-height: 50px;
+ 	margin-top:25px;
+}

@@ -1,0 +1,15 @@
+header {
+  background-color:$eerie-black;
+}
+
+nav a {
+	font-family:$Roboto;
+ 	font-size:$medium;
+ 	font-weigth:$regular;
+ 	color:$white;
+
+ 	&:hover {
+ 	color:$fuzzy-wuzzy;
+ 	}
+}
+
