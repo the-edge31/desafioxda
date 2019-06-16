@@ -2,6 +2,7 @@ header {
 	font-family:$raleway;
 	font-size:$medium;
 	color:$black;
+	width:100%;
 }
 
 
@@ -26,6 +27,14 @@ header {
 	
 }
 
+.navbar-light .navbar-brand {
+	color:$white;
+	font-family:$Old-Standard;
+	font-weight:$bold;
+	font-size:$xx-large;
+	
+}
+
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -37,4 +46,8 @@ header {
     display: block;
     padding: 0.5rem 1rem;
     margin-left: 2%;
+}
+
+.navbar-nav {
+    margin-right: 40px;
 }

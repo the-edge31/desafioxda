@@ -14,22 +14,3 @@
  	}
 }
 
-.button__alt2 {
-	background-color:$white;
-	border:1px solid $black;
-	display:inline-block;
-	color:$black;
-	font-family:$Old-Standard;
-	font-size:$x-large;
-	padding:15px 42px;
-	text-decoration:none;
-	margin-left: 5%;
-	font-weight:$bold;
-	-ms-transform: rotate(90deg);
-  	-webkit-transform: rotate(90deg);
-  	transform: rotate(90deg);
-
- 	&:hover {
- 		border:1px solid $ligth-gray;
- 	}
-}

@@ -9663,15 +9663,44 @@ h3 {
   margin-left: 0;
 }
 
-.form-group label {
-  margin-left: 5%;
-}
-
 .form-control {
-  width: 65%;
-  margin-left: 5%;
+  width: 70%;
   margin-top: 5%;
   margin-bottom: 10%;
+  border-radius: 0;
+}
+
+.col-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-8 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.span__alt {
+  background-color: #fff;
+  display: inline-block;
+  color: #000;
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  right: 15%;
+  top: 50%;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -9735,8 +9764,7 @@ h1 {
   font-weight: 700;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 25%;
+  margin-left: 3%;
 }
 
 h2 {
@@ -9744,9 +9772,7 @@ h2 {
   font-size: 30px;
   color: #fff;
   font-weight: 700;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 5%;
+  padding-top: 10%;
 }
 
 h3 {
@@ -9754,6 +9780,7 @@ h3 {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
+  margin-top: 5%;
 }
 
 p {
@@ -9763,14 +9790,13 @@ p {
   line-height: 1.6;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-right: 25%;
-  margin-left: 5%;
 }
 
 header {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #000;
+  width: 100%;
 }
 
 .navbar {
@@ -9791,6 +9817,13 @@ header {
   font-size: 18px;
 }
 
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -9804,25 +9837,40 @@ header {
   margin-left: 2%;
 }
 
+.navbar-nav {
+  margin-right: 40px;
+}
+
 main {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #a6a5a8;
+  background: #fff;
+}
+
+main img {
+  position: center;
+  height: auto;
+  width: 100%;
 }
 
 .main__img {
   background-image: url("../images/modelo.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  height: auto;
+  background-size: cover;
+  position: center;
 }
 
 .main__new {
   background: #000;
-  margin-right: -3%;
-  margin-top: 10%;
-  padding-top: 5%;
-  padding-bottom: 8%;
+  margin-top: 4%;
+  height: auto;
+}
+
+.main__btn {
+  background: #fff;
+  /*  width: 84px;
+    height: 258px;*/
 }
 
 .button__alt {
@@ -9837,21 +9885,6 @@ main {
   margin-left: 5%;
 }
 .button__alt:hover {
-  border: 1px solid #d1d1d1;
-}
-
-.button__alt2 {
-  background-color: #fff;
-  border: 1px solid #000;
-  display: inline-block;
-  color: #000;
-  font-family: "Old Standard TT", serif;
-  font-size: 18px;
-  padding: 15px 42px;
-  text-decoration: none;
-  margin-left: 5%;
-}
-.button__alt2:hover {
   border: 1px solid #d1d1d1;
 }
 

@@ -5,8 +5,7 @@ h1 {
 	font-weight:$bold;
 	margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right:25%;
+    margin-left: 3%;
 }
 
 h2 {
@@ -14,9 +13,8 @@ h2 {
 	font-size:$xx-large;
 	color:$white;
 	font-weight:$bold;
-	margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
+	padding-top: 10%;
+    
 }
 
 h3 {
@@ -24,6 +22,7 @@ h3 {
 	font-size:$x-large;
 	color:$white;
 	font-weight:$bold;
+	margin-top:5%;
 }
 
 
@@ -34,6 +33,5 @@ p {
 	line-height: 1.6;
 	margin-top: 2%;
     margin-bottom: 2%;
-    margin-right:25%;
-    margin-left: 5%;
+
 }

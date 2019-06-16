@@ -2,21 +2,36 @@ main {
 	font-family:$raleway;
 	font-size:$medium;
 	color:$quick-silver;
+	background:$white;
 }
+
+main img {
+	position:center;
+	height:auto;
+    width: 100%;
+}
+
+
+
 
 .main__img {
 	background-image: url("../images/modelo.jpg");
 	background-repeat: no-repeat;
-	background-position:center;
-	height: auto;
+	background-size:cover;
+	position:center;
+
 }
 
 .main__new {
 	background:$black;
-	margin-right: -3%;
-	margin-top: 10%;
-	padding-top:5%;
-	padding-bottom: 8%;
+	margin-top:4%;
+	height:auto;
+
 
 }
 
+.main__btn {
+	background:$white;
+  /*  width: 84px;
+    height: 258px;*/
+}
