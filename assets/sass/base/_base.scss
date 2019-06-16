@@ -1,24 +1,23 @@
 body {
-	background-color:$white;
- 	font-weigth:$regular;
- 	font-size:$medium;
- 	font-weigth:$regular;
 
 }
 
-a {
-	font-family:$Roboto;
- 	font-size:$medium;
- 	font-weigth:$regular;
- 	color:$fuzzy-wuzzy;
-
- 	&:hover {
- 		color:$raisin-black;
- 		text-decoration:none;
- 	}
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0; 
+    margin-right: 0; 
+    margin-left: 0; 
 }
 
-i, .fa, .fas {
-	color:$white;
-	margin-top: 15%;
+.form-group label {
+	margin-left: 5%;
 }
+
+.form-control {
+	width: 65%;
+	margin-left: 5%;
+	margin-top:5%;
+	margin-bottom:10%;
+}
+

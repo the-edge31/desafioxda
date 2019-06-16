@@ -1,15 +1,40 @@
 header {
-  background-color:$eerie-black;
+	font-family:$raleway;
+	font-size:$medium;
+	color:$black;
 }
 
-nav a {
-	font-family:$Roboto;
- 	font-size:$medium;
- 	font-weigth:$regular;
- 	color:$white;
 
- 	&:hover {
- 	color:$fuzzy-wuzzy;
- 	}
+.navbar {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.0rem 0rem;
+
+
 }
 
+.navbar-brand  {
+	background: black;
+	padding: 3%;
+	color:$white;
+	font-family:$Old-Standard;
+	font-weight:$bold;
+	font-size:$x-large;
+	
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color:$black;
+    font-weight:$bold;
+}
+
+.nav-link a {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-left: 2%;
+}

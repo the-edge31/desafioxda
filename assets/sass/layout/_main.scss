@@ -1,8 +1,22 @@
 main {
-  text-align: center;
-  background-image: url('../images/post-image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
+	font-family:$raleway;
+	font-size:$medium;
+	color:$quick-silver;
+}
+
+.main__img {
+	background-image: url("../images/modelo.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	height: auto;
+}
+
+.main__new {
+	background:$black;
+	margin-right: -3%;
+	margin-top: 10%;
+	padding-top:5%;
+	padding-bottom: 8%;
+
 }
 

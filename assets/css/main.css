@@ -9655,27 +9655,23 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  background-color: #fff;
-  font-weigth: 400;
-  font-size: 18px;
-  font-weigth: 400;
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-a {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weigth: 400;
-  color: #e56353;
-}
-a:hover {
-  color: #222323;
-  text-decoration: none;
+.form-group label {
+  margin-left: 5%;
 }
 
-i, .fa, .fas {
-  color: #fff;
-  margin-top: 15%;
+.form-control {
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -9733,113 +9729,130 @@ table {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 70px;
-  font-weigth: 900;
-  font-style: italic;
-  color: #fff;
-  padding-top: 200px;
+  font-family: "Old Standard TT", serif;
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 25%;
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 30px;
-  font-weigth: 900;
-  font-style: italic;
-  color: #121619;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 18px;
-  font-weigth: 400;
-  color: #121619;
-  margin: 25px 0px 25px 0px;
-  color: #6c6e70;
+  color: #fff;
+  font-weight: 700;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weigth: 400;
-  color: #6c6e70;
-  line-height: 50px;
-  margin-top: 25px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #a6a5a8;
+  line-height: 1.6;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 25%;
+  margin-left: 5%;
 }
 
 header {
-  background-color: #121619;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #000;
 }
 
-nav a {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weigth: 400;
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0rem;
+}
+
+.navbar-brand {
+  background: black;
+  padding: 3%;
   color: #fff;
-}
-nav a:hover {
-  color: #e56353;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-footer {
-  background-color: #222323;
-  text-aling: center;
-  padding-top: 7%;
-  padding-bottom: 7%;
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.nav-link a {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-left: 2%;
 }
 
 main {
-  text-align: center;
-  background-image: url("../images/post-image.jpg");
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #a6a5a8;
+}
+
+.main__img {
+  background-image: url("../images/modelo.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
+  background-position: center;
+  height: auto;
 }
 
-.section__pagination {
-  background: #d1d1d1;
-  padding: 3%;
-  margin-top: 2%;
-}
-
-article {
-  padding-top: 40px;
-}
-
-article img {
-  float: left;
-  margin-right: 30px;
-}
-
-article p {
-  font-size: 18px;
-}
-
-article span {
-  color: #e56353;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weigth: 400;
+.main__new {
+  background: #000;
+  margin-right: -3%;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 8%;
 }
 
 .button__alt {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weigth: 400;
-  color: #fff;
-  background-color: #6c6e70;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 28px;
-  font-size: 17px;
-  padding: 11px 34px;
-  margin-top: 40px;
-  text-shadow: 0px 1px 0px #2f6627;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding: 15px 42px;
+  text-decoration: none;
+  margin-left: 5%;
 }
 .button__alt:hover {
-  background-color: #e6e7e7;
+  border: 1px solid #d1d1d1;
+}
+
+.button__alt2 {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  color: #000;
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+  padding: 15px 42px;
+  text-decoration: none;
+  margin-left: 5%;
+}
+.button__alt2:hover {
+  border: 1px solid #d1d1d1;
 }
 
 /*# sourceMappingURL=main.css.map */
